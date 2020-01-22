@@ -1,0 +1,46 @@
+.flex-container {
+  display: flex;
+}
+.header {
+  display: flex;
+  background: #f1f1f1;
+  padding: 5px 20px;
+}
+.flex-container > div {
+  font-size: 30px;
+  flex-grow: 6;
+  min-height: 500px;
+  justify-content: space-between;
+  text-align: left;
+  font-size:16px;
+}
+.column {
+  border-right: 2px solid #eee;
+}
+
+
+.card-input {
+  padding: 10px;
+}
+
+.card-btn {
+  padding: 10px;
+}
+
+.card-btn-move {
+  width: 50%;
+  float: left; 
+  text-align: left;
+  padding: 10px;
+}
+
+
+.card{
+  border: 1px solid #aaa;
+  height: 160px;
+  padding: 20px
+}
+
+.title {
+  padding-left:20px;
+}
